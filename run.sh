@@ -1,0 +1,3 @@
+#!/bin/sh
+
+/kaniko/executor "$@"

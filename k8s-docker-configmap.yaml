@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: docker-config
+  namespace: default
+data:
+  docker-config: |-
+    {
+      "credsStore": "ecr-login"
+    }
